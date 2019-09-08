@@ -7,21 +7,37 @@
     <title>YAY BMO!</title>
     <link href="assets/css/reset.css" type="text/css" rel="stylesheet">
     <link href="assets/css/style.css" type="text/css" rel="stylesheet">
-    <link href="assets/javascript/game.js" type="text/css" rel="stylesheet">
 </head>
 <body>
     <h1>Welcome to the magical world of OOO!</h1>
     <p>This world is full of fantastical creatures, but quite possible the most endearing is BMO! 
         <br>
-       Would you like to play word guess with BMO? Press any key to start!
+       Watch the video to meet BMO
     </p>
 
     <!--"who wants to play video games??"; BMO-->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/U_JbTHp6uzI?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <!--mathmatical victory video; Adventure Time!-->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/FfPFtbJAEm8?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div id="intro-vid">
+    <iframe  width="560" height="315" src="https://www.youtube.com/embed/U_JbTHp6uzI?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
-<!--
+    <p>Well... maybe not conversaion parade...</p>
+    <p>But would you like to play word guess with BMO? Press any key to start!</p>
+
+    <div class="game-side">
+        <p>Wins</p><span id="win">0</span>
+        <p>Current Word</p><span id="word"></span>
+        <br>
+        <p>Guesses Remaining</p><span id="left">0</span>
+        <p>Guesses Made</p><span id="guesses"></span>
+    </div>
+    
+    
+    <!--mathmatical victory video; Adventure Time!-->
+    <!--
+    <iframe  width="560" height="315" src="https://www.youtube.com/embed/FfPFtbJAEm8?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    -->
+
+    <!--
     psuedo code:
 
    1. display adventure time banner at the top
@@ -32,15 +48,17 @@
                  - guesses made list
                  -
                  -
-    
-
 -->
 
 
+<div class="container">
+
+</div>
 
 
 
 
+<script src="./assets/javascript/game.js"></script>
 </body>
 </html>
 
